@@ -24,7 +24,7 @@ const cartTotal = useMemo( () => cart.reduce((total, item) => total + (item.quan
                         <div id="carrito" className="bg-white p-3">
                         
                             {isEmpty ? (
-                            <p className="text-center">El carrito esta vacio</p>
+                            <p className="text-center">El carrito esta vacio ...</p>
                             ) : (
                             <>
                                 <table className="w-100 table">
